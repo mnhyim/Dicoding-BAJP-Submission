@@ -1,0 +1,60 @@
+# Instrumentation Test
+  MainActivityTest
+    * Memuat list movies dan tv show 
+	# Memastikan recyclerview movie berhasil ditampilkan
+	# Memastikan recyclerview movie dapat di-scroll
+	# Memastikan perpindahan tab dari tab movie ke tab tv show dapat dilakukan
+	# Memastikan recyclerview tv show berhasil ditampilkan
+	# Memastikan recyclerview tv show dapat di-scroll
+
+   * Memuat detail movie
+	# Memastikan recyclerview movie berhasil ditampilkan
+        # Memastikan item pada recyclerview dapat diklik
+	# Memastikan data detail movie berhasil ditampilkan dan sesuai dengan yang diharapkan.
+	# Memastikan pengguna dapat kembali ke halaman utama dari halaman detail
+
+   * Memuat detail tv show
+	# Memastikan recyclerview tv showberhasil ditampilkan
+        # Memastikan item pada recyclerview dapat diklik
+	# Memastikan data detail tv show berhasil ditampilkan dan sesuai dengan yang diharapkan.
+	# Memastikan pengguna dapat kembali ke halaman utama dari halaman detail
+
+# Unit Test
+  MovieViewModelTest
+    * Memuat data movie dari API
+	# Memastikan data movies tidak null
+	# Memastikan jumlah data movies sesuai sesuai dengan data dummy
+    * Memuat data movie favorite dari Room
+	# Memastikan data movies tidak null
+	# Memastikan jumlah data movies sesuai sesuai dengan data dummy
+  
+  TvShowViewModelTest
+    * Memuat data tv show dari API
+	# Memastikan data tv show tidak null
+	# Memastikan jumlah data tv show sesuai sesuai dengan data dummy
+    * Memuat data movie favorite dari Room
+	# Memastikan data tv show tidak null
+	# Memastikan jumlah data tv show sesuai sesuai dengan data dummy
+  
+  DetailViewModelTest
+    * Memeriksa apakah movie telah difavoritkan
+	# Memastikan data movie telah di favoritkan
+
+    * Memeriksa apakah tv show telah difavoritkan
+	# Memastikan data tv show telah di favoritkan
+
+  CatalogRepositoryTest
+   * Memuat list movies dari API
+        # Memastikan data movies tidak null
+        # Memastikan jumlah data movies sesuai sesuai dengan dummy
+   * Memuat list tv show dari API
+        # Memastikan data tv show tidak null
+        # Memastikan jumlah data tv show sesuai sesuai dengan dummy
+   * Memuat list movies favorite dari Room
+        # Memastikan data movies tidak null
+        # Memastikan pagedlist data movies bekerja dengan baik
+        # Memastikan jumlah data movies sesuai sesuai dengan dummy
+   * Memuat list tv show favorite dari Room
+        # Memastikan data tv show tidak null
+        # Memastikan pagedlist data tv show bekerja dengan baik
+        # Memastikan jumlah data tv show sesuai sesuai dengan dummy

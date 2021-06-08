@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Movie Catalog</string>
+
+    <string name="label_movies">Movies</string>
+    <string name="label_tvShow">TV Show</string>
+    <string name="label_favorite">Favorite</string>
+
+    <string name="label_overview">Overview</string>
+    <string name="label_language">Language</string>
+    <string name="label_country">Origin Country</string>
+    <string name="label_release">Release</string>
+    <string name="label_release_2">First Air Date</string>
+    <string name="empty_favorites">There is no item!</string>
+    <string name="label_sort">Sort</string>
+</resources>
